@@ -9,10 +9,13 @@ skyfield
 toml
 pyfftw 
 
-#jupyter
+# jupyter
 ipykernel
 jupyterlab
 ipywidgets
 ipympl
 
-###### Requirements without Version Specifiers ######
+# etc
+
+###### Requirements with Version Specifiers ######
+iminuit>=2
