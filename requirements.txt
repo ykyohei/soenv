@@ -1,0 +1,18 @@
+###### Requirements without Version Specifiers ######
+toast-cmb
+#mpi4py
+
+# sotodlib requirements
+so3g 
+pixell
+skyfield
+toml
+pyfftw 
+
+#jupyter
+ipykernel
+jupyterlab
+ipywidgets
+ipympl
+
+###### Requirements without Version Specifiers ######
