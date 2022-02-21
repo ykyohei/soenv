@@ -1,3 +1,3 @@
-+ prerequisite
-apt install python3.8
+# prerequisite
+apt install python3.8\
 pip install virtualenv
