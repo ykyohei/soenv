@@ -3,11 +3,11 @@ toast-cmb
 #mpi4py
 
 # sotodlib requirements
-so3g 
+so3g
 pixell
 skyfield
 toml
-pyfftw 
+pyfftw
 
 # jupyter
 ipykernel
@@ -16,6 +16,7 @@ ipywidgets
 ipympl
 
 # etc
+numba
 
 ###### Requirements with Version Specifiers ######
 iminuit>=2
