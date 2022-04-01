@@ -17,6 +17,7 @@ ipympl
 
 # etc
 numba
+pysqlite3
 
 ###### Requirements with Version Specifiers ######
 iminuit>=2
