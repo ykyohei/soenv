@@ -16,8 +16,9 @@ ipywidgets
 ipympl
 
 # etc
-numba
 pysqlite3
+pymaster
+camb
 
 ###### Requirements with Version Specifiers ######
 iminuit>=2
