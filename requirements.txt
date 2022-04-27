@@ -19,6 +19,9 @@ ipympl
 pysqlite3
 pymaster
 camb
+joblib
+lru_cache
+cython
 
 ###### Requirements with Version Specifiers ######
 iminuit>=2
