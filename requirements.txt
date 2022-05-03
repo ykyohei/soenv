@@ -16,6 +16,7 @@ ipywidgets
 ipympl
 
 # etc
+pandas
 pysqlite3
 pymaster
 camb
