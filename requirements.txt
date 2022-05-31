@@ -17,12 +17,14 @@ ipympl
 
 # etc
 pandas
+tables
 pysqlite3
 pymaster
 camb
 joblib
 lru_cache
 cython
+natsort
 
 ###### Requirements with Version Specifiers ######
 iminuit>=2
