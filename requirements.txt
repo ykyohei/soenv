@@ -1,6 +1,6 @@
 ###### Requirements without Version Specifiers ######
 toast-cmb
-#mpi4py
+mpi4py
 
 # sotodlib requirements
 so3g
