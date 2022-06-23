@@ -19,7 +19,7 @@ ipympl
 pandas
 tables
 pysqlite3
-pymaster
+#pymaster
 camb
 joblib
 lru_cache
