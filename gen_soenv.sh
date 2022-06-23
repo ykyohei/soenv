@@ -6,13 +6,13 @@ envname=soenv_test
 path=/software/
 echo $py, $envname
 
-virtualenv -p $py $path$envname
+sudo virtualenv -p $py $path$envname
 source $path$envname/bin/activate
 
-$path$envname/bin/pip3 install -r requirements.txt
-$path$envname/bin/pip3 install pymaster
-$path$envname/bin/$py -m ipykernel install --prefix=$path$envname/ --name=$envname --display-name=$envname
-$path$envname/bin/jupyter nbextension enable --py widgetsnbextension --sys-prefix
+sudo $path$envname/bin/pip3 install -r requirements.txt
+sudo $path$envname/bin/pip3 install pymaster
+sudo $path$envname/bin/$py -m ipykernel install --prefix=$path$envname/ --name=$envname --display-name=$envname
+sudo $path$envname/bin/jupyter nbextension enable --py widgetsnbextension --sys-prefix
 
 mkdir $envname"_sotodlib"
 cd $envname"_sotodlib"

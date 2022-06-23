@@ -1,0 +1,105 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test COMPILER_SUPPORTS_CXX11
+-- Performing Test COMPILER_SUPPORTS_CXX11 - Success
+-- Found PythonInterp: /usr/bin/python3.8 (found version "3.8.10") 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found version "3.8.10") 
+-- Found Boost: /usr/include (found version "1.71.0") found components: python38 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system iostreams filesystem python38 regex 
+-- Boost Geometry Available
+-- Found GSL: /usr/lib/x86_64-linux-gnu/libgsl.so;/usr/lib/x86_64-linux-gnu/libgslcblas.so  
+-- Found FFTW_THREADS: /usr/lib/x86_64-linux-gnu/libfftw3_threads.so  
+-- Found FFTW: /usr/lib/x86_64-linux-gnu/libfftw3.so  
+-- Could NOT find HDF5 (missing: HDF5_LIBRARIES HDF5_INCLUDES) 
+-- Found MPI_C: /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so (found version "3.1") 
+-- Found MPI_CXX: /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so (found version "3.1") 
+-- Found MPI: TRUE (found version "3.1")  
+-- + calibration
+-- + chwp
+-- + coordinateutils
+-- + core
+-- Found Flac: /usr/lib/x86_64-linux-gnu/libFLAC.so  
+-- + dfmux
+-- Found NetCDF: /usr/lib/x86_64-linux-gnu/libnetcdf.so  
+-- + gcp
+-- + std_processing
+-- + whwp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /software/spt3g_software_sa_220623/build
+
+
+Scanning dependencies of target core
+[  3%] Building CXX object core/CMakeFiles/core.dir/src/G3Writer.cxx.o
+[  3%] Building CXX object core/CMakeFiles/core.dir/src/G3EventBuilder.cxx.o
+[  7%] Building CXX object core/CMakeFiles/core.dir/src/G3Vector.cxx.o
+[  7%] Building CXX object core/CMakeFiles/core.dir/src/G3TimeStamp.cxx.o
+[  9%] Building CXX object core/CMakeFiles/core.dir/src/G3Reader.cxx.o
+[ 11%] Building CXX object core/CMakeFiles/core.dir/src/G3InfiniteSource.cxx.o
+[ 13%] Building CXX object core/CMakeFiles/core.dir/src/python.cxx.o
+[ 15%] Building CXX object core/CMakeFiles/core.dir/src/dataio.cxx.o
+[ 17%] Building CXX object core/CMakeFiles/core.dir/src/G3Pipeline.cxx.o
+[ 19%] Building CXX object core/CMakeFiles/core.dir/src/G3Logging.cxx.o
+[ 25%] Building CXX object core/CMakeFiles/core.dir/src/G3NetworkSender.cxx.o
+[ 25%] Building CXX object core/CMakeFiles/core.dir/src/G3PrintfLogger.cxx.o
+[ 25%] Building CXX object core/CMakeFiles/core.dir/src/G3MultiFileWriter.cxx.o
+[ 26%] Building CXX object core/CMakeFiles/core.dir/src/G3Frame.cxx.o
+[ 30%] Building CXX object core/CMakeFiles/core.dir/src/G3Data.cxx.o
+[ 30%] Building CXX object core/CMakeFiles/core.dir/src/G3Timestream.cxx.o
+[ 32%] Building CXX object core/CMakeFiles/core.dir/src/G3SkyMap.cxx.o
+[ 34%] Building CXX object core/CMakeFiles/core.dir/src/G3TriggeredBuilder.cxx.o
+[ 36%] Building CXX object core/CMakeFiles/core.dir/src/G3SyslogLogger.cxx.o
+[ 40%] Building CXX object core/CMakeFiles/core.dir/src/G3Map.cxx.o
+[ 40%] Building C object core/CMakeFiles/core.dir/src/crc32.c.o
+[ 42%] Linking CXX shared library ../spt3g/core.so
+[ 42%] Built target core
+Scanning dependencies of target calibration
+Scanning dependencies of target coordinateutils
+Scanning dependencies of target dfmux
+[ 44%] Building CXX object calibration/CMakeFiles/calibration.dir/src/PointingProperties.cxx.o
+[ 46%] Building CXX object calibration/CMakeFiles/calibration.dir/src/BoloProperties.cxx.o
+[ 48%] Building CXX object calibration/CMakeFiles/calibration.dir/src/python.cxx.o
+[ 50%] Building C object coordinateutils/CMakeFiles/coordinateutils.dir/src/get_interp_val.c.o
+[ 51%] Building CXX object coordinateutils/CMakeFiles/coordinateutils.dir/src/python.cpp.o
+[ 57%] Building CXX object dfmux/CMakeFiles/dfmux.dir/src/DfMuxBuilder.cxx.o
+[ 57%] Building CXX object coordinateutils/CMakeFiles/coordinateutils.dir/src/FlatSkyMap.cxx.o
+[ 59%] Building C object coordinateutils/CMakeFiles/coordinateutils.dir/src/chealpix.c.o
+[ 59%] Building CXX object coordinateutils/CMakeFiles/coordinateutils.dir/src/flatskyprojection.cpp.o
+[ 63%] Building CXX object dfmux/CMakeFiles/dfmux.dir/src/DfMuxSample.cxx.o
+[ 63%] Building CXX object coordinateutils/CMakeFiles/coordinateutils.dir/src/CutskyHealpixMap.cxx.o
+[ 65%] Building CXX object dfmux/CMakeFiles/dfmux.dir/src/DfMuxCollector.cxx.o
+[ 67%] Building CXX object dfmux/CMakeFiles/dfmux.dir/src/HardwareMap.cxx.o
+[ 71%] Building CXX object dfmux/CMakeFiles/dfmux.dir/src/python.cxx.o
+[ 71%] Building CXX object dfmux/CMakeFiles/dfmux.dir/src/NetCDFDump.cxx.o
+[ 73%] Building CXX object dfmux/CMakeFiles/dfmux.dir/src/Housekeeping.cxx.o
+[ 75%] Building CXX object dfmux/CMakeFiles/dfmux.dir/src/LegacyDfMuxCollector.cxx.o
+[ 78%] Building CXX object dfmux/CMakeFiles/dfmux.dir/src/DfMuxCollator.cxx.o
+[ 78%] Building CXX object coordinateutils/CMakeFiles/coordinateutils.dir/src/quaternion.cpp.o
+[ 80%] Linking CXX shared library ../spt3g/calibration.so
+[ 80%] Built target calibration
+[ 82%] Linking CXX shared library ../spt3g/coordinateutils.so
+[ 82%] Built target coordinateutils
+[ 84%] Linking CXX shared library ../spt3g/dfmux.so
+[ 84%] Built target dfmux
+Scanning dependencies of target gcp
+[ 86%] Building CXX object gcp/CMakeFiles/gcp.dir/src/TrackerPointing.cxx.o
+[ 88%] Building CXX object gcp/CMakeFiles/gcp.dir/src/ACUStatus.cxx.o
+[ 90%] Building CXX object gcp/CMakeFiles/gcp.dir/src/ARCFileReader.cxx.o
+[ 94%] Building CXX object gcp/CMakeFiles/gcp.dir/src/GCPMuxDataDecoder.cxx.o
+[ 94%] Building CXX object gcp/CMakeFiles/gcp.dir/src/python.cxx.o
+[ 98%] Building CXX object gcp/CMakeFiles/gcp.dir/src/TrackerStatus.cxx.o
+[ 98%] Building CXX object gcp/CMakeFiles/gcp.dir/src/GCPLogger.cxx.o
+[100%] Linking CXX shared library ../spt3g/gcp.so
+[100%] Built target gcp
