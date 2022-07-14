@@ -6,5 +6,5 @@ apt install python3.8 gfortran build-essential gcc g++ make libtool texinfo dpkg
 apt install cmake libboost-all-dev libflac-dev libnetcdf-dev
 pip install virtualenv
 # toast 3
-apt install libssl-dev
+apt install libssl-dev libopenblas-dev liblapack-dev
 ```
