@@ -1,15 +1,19 @@
-###### Requirements without Version Specifiers ######
-toast-cmb
-mpi4py
-
 # sotodlib requirements
+numpy==1.22
+setuptools>=48
 so3g
 pixell
 skyfield
 toml
 pyfftw
+autopep8
+
+# toast
+toast-cmb
+mpi4py
 
 # sa
+iminuit>=2
 statsmodels
 
 # jupyter
@@ -23,11 +27,10 @@ pandas
 tables
 pysqlite3
 #pymaster
+pymc
 camb
 joblib
 lru_cache
 cython
 natsort
-
-###### Requirements with Version Specifiers ######
-iminuit>=2
+numba

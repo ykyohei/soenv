@@ -2,7 +2,7 @@
 
 py=python3.8
 envname=soenv_$(date +"%Y%m%d")
-envname=soenv_test
+#envname=soenv_test
 path=/software/
 echo $py, $envname
 
