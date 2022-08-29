@@ -16,10 +16,10 @@ $ jupyter server --generate-config
 ```
 edit ~/.jupyter/jupyter_server_config.py
 ```bash
-c.ServerApp.ip = '<server ip>'
+c.ServerApp.ip = "<server ip>"
 c.ServerApp.open_browser = False
-c.ServerApp.port = 8888 'any port range 0 to 65353 you like which doen't conflict with others'
-c.ServerApp.notebook_dir = '/homes/<username>'
+c.ServerApp.port = 8888 "any port range 0 to 65353 you like which doen't conflict with others"
+c.ServerApp.notebook_dir = "/homes/<username>"
 ```
 password
 ```bash
