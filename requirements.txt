@@ -6,6 +6,7 @@ pixell
 skyfield
 toml
 pyfftw
+scikit-image
 autopep8
 
 # toast
