@@ -8,6 +8,7 @@ toml
 pyfftw
 scikit-image
 autopep8
+sphinx
 
 # toast
 toast-cmb
