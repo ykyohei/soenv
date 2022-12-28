@@ -1,0 +1,522 @@
+python3.8, soenv_20220826
+Using base prefix '/usr'
+New python executable in /software/soenv_20220826/bin/python3.8
+Not overwriting existing python script /software/soenv_20220826/bin/python (you must use /software/soenv_20220826/bin/python3.8)
+Installing setuptools, pkg_resources, pip, wheel...done.
+/usr/lib/python3/dist-packages/virtualenv.py:1086: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+Running virtualenv with interpreter /usr/bin/python3.8
+WARNING: The directory '/homes/ykyohei/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Collecting pysqlite3
+  Downloading pysqlite3-0.4.7.tar.gz (40 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.1/40.1 kB 16.0 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting numpy==1.22
+  Downloading numpy-1.22.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.8/16.8 MB 122.0 MB/s eta 0:00:00
+Requirement already satisfied: setuptools>=48 in /software/soenv_20220826/lib/python3.8/site-packages (from -r requirements.txt (line 4)) (65.3.0)
+Collecting so3g
+  Downloading so3g-0.1.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (37.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 37.6/37.6 MB 117.5 MB/s eta 0:00:00
+Collecting pixell
+  Downloading pixell-0.16.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (10.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.9/10.9 MB 117.4 MB/s eta 0:00:00
+Collecting skyfield
+  Downloading skyfield-1.43.1-py3-none-any.whl (439 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 439.1/439.1 kB 153.3 MB/s eta 0:00:00
+Collecting toml
+  Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting pyfftw
+  Downloading pyFFTW-0.13.0-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 129.0 MB/s eta 0:00:00
+Collecting autopep8
+  Downloading autopep8-1.7.0-py2.py3-none-any.whl (45 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.6/45.6 kB 337.5 MB/s eta 0:00:00
+Collecting toast-cmb
+  Downloading toast_cmb-2.3.14-py3-none-any.whl (1.4 kB)
+Collecting iminuit>=2
+  Downloading iminuit-2.16.0-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (347 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 347.6/347.6 kB 230.0 MB/s eta 0:00:00
+Collecting statsmodels
+  Downloading statsmodels-0.13.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (9.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.9/9.9 MB 118.7 MB/s eta 0:00:00
+Collecting ipykernel
+  Downloading ipykernel-6.15.1-py3-none-any.whl (132 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 132.9/132.9 kB 370.1 MB/s eta 0:00:00
+Collecting jupyterlab
+  Downloading jupyterlab-3.4.5-py3-none-any.whl (8.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.8/8.8 MB 111.8 MB/s eta 0:00:00
+Collecting ipywidgets
+  Downloading ipywidgets-8.0.1-py3-none-any.whl (133 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.7/133.7 kB 210.0 MB/s eta 0:00:00
+Collecting ipympl
+  Downloading ipympl-0.9.2-py2.py3-none-any.whl (510 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 510.3/510.3 kB 162.3 MB/s eta 0:00:00
+Collecting pandas
+  Downloading pandas-1.4.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.7/11.7 MB 117.4 MB/s eta 0:00:00
+Collecting tables
+  Downloading tables-3.7.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (5.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.9/5.9 MB 120.5 MB/s eta 0:00:00
+Collecting pymc
+  Downloading pymc-4.1.7-py3-none-any.whl (544 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 544.4/544.4 kB 210.9 MB/s eta 0:00:00
+Collecting camb
+  Downloading camb-1.3.5.tar.gz (1.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 138.5 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting joblib
+  Downloading joblib-1.1.0-py2.py3-none-any.whl (306 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 307.0/307.0 kB 195.4 MB/s eta 0:00:00
+Collecting lru_cache
+  Downloading lru_cache-0.2.3.tar.gz (2.2 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting cython
+  Downloading Cython-0.29.32-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl (1.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 136.7 MB/s eta 0:00:00
+Collecting natsort
+  Downloading natsort-8.1.0-py3-none-any.whl (37 kB)
+Collecting numba
+  Downloading numba-0.56.0-cp38-cp38-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (3.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.5/3.5 MB 130.0 MB/s eta 0:00:00
+Collecting matplotlib
+  Downloading matplotlib-3.5.3-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl (11.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.3/11.3 MB 117.5 MB/s eta 0:00:00
+Collecting pysqlite3-wheels
+  Downloading pysqlite3_wheels-0.4.6-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (3.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 123.7 MB/s eta 0:00:00
+Collecting tqdm
+  Downloading tqdm-4.64.0-py2.py3-none-any.whl (78 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.4/78.4 kB 149.2 MB/s eta 0:00:00
+Collecting astropy
+  Downloading astropy-5.1-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (11.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.1/11.1 MB 117.5 MB/s eta 0:00:00
+Collecting pytz
+  Downloading pytz-2022.2.1-py2.py3-none-any.whl (500 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 500.6/500.6 kB 149.2 MB/s eta 0:00:00
+Collecting sqlalchemy
+  Downloading SQLAlchemy-1.4.40-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 136.2 MB/s eta 0:00:00
+Collecting ephem
+  Downloading ephem-4.1.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 132.0 MB/s eta 0:00:00
+Collecting pyaml
+  Downloading pyaml-21.10.1-py2.py3-none-any.whl (24 kB)
+Collecting scipy
+  Downloading scipy-1.9.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (43.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.4/43.4 MB 117.5 MB/s eta 0:00:00
+Collecting python-dateutil>=2.7
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 247.7/247.7 kB 375.7 MB/s eta 0:00:00
+Collecting coveralls>=1.5
+  Downloading coveralls-3.3.1-py2.py3-none-any.whl (14 kB)
+Collecting pyyaml>=5.0
+  Downloading PyYAML-6.0-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (701 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 701.2/701.2 kB 170.5 MB/s eta 0:00:00
+Collecting Pillow>=5.3.0
+  Downloading Pillow-9.2.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 124.4 MB/s eta 0:00:00
+Collecting pytest>=4.6
+  Downloading pytest-7.1.2-py3-none-any.whl (297 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 297.0/297.0 kB 209.5 MB/s eta 0:00:00
+Collecting pytest-cov>=2.6
+  Downloading pytest_cov-3.0.0-py3-none-any.whl (20 kB)
+Collecting healpy>=1.13
+  Downloading healpy-1.16.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (23.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23.8/23.8 MB 117.6 MB/s eta 0:00:00
+Collecting h5py>=2.7
+  Downloading h5py-3.7.0-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (4.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 123.4 MB/s eta 0:00:00
+Collecting sgp4>=2.2
+  Downloading sgp4-2.21-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (229 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.2/229.2 kB 468.4 MB/s eta 0:00:00
+Collecting jplephem>=2.13
+  Downloading jplephem-2.17-py3-none-any.whl (46 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.3/46.3 kB 176.7 MB/s eta 0:00:00
+Collecting certifi>=2017.4.17
+  Downloading certifi-2022.6.15-py3-none-any.whl (160 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 160.2/160.2 kB 409.1 MB/s eta 0:00:00
+Collecting pycodestyle>=2.9.1
+  Downloading pycodestyle-2.9.1-py2.py3-none-any.whl (41 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.5/41.5 kB 334.0 MB/s eta 0:00:00
+Collecting toast
+  Downloading toast-2.3.14-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (11.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.6/11.6 MB 117.5 MB/s eta 0:00:00
+Collecting packaging>=21.3
+  Downloading packaging-21.3-py3-none-any.whl (40 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.8/40.8 kB 145.5 MB/s eta 0:00:00
+Collecting patsy>=0.5.2
+  Downloading patsy-0.5.2-py2.py3-none-any.whl (233 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 233.7/233.7 kB 271.1 MB/s eta 0:00:00
+Collecting jupyter-client>=6.1.12
+  Downloading jupyter_client-7.3.5-py3-none-any.whl (132 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 132.1/132.1 kB 420.3 MB/s eta 0:00:00
+Collecting tornado>=6.1
+  Downloading tornado-6.2-cp37-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (423 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 424.0/424.0 kB 174.1 MB/s eta 0:00:00
+Collecting psutil
+  Downloading psutil-5.9.1-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (284 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 284.7/284.7 kB 293.7 MB/s eta 0:00:00
+Collecting traitlets>=5.1.0
+  Downloading traitlets-5.3.0-py3-none-any.whl (106 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 106.8/106.8 kB 79.5 MB/s eta 0:00:00
+Collecting ipython>=7.23.1
+  Downloading ipython-8.4.0-py3-none-any.whl (750 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 750.8/750.8 kB 136.4 MB/s eta 0:00:00
+Collecting debugpy>=1.0
+  Downloading debugpy-1.6.3-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 137.0 MB/s eta 0:00:00
+Collecting nest-asyncio
+  Downloading nest_asyncio-1.5.5-py3-none-any.whl (5.2 kB)
+Collecting matplotlib-inline>=0.1
+  Downloading matplotlib_inline-0.1.6-py3-none-any.whl (9.4 kB)
+Collecting pyzmq>=17
+  Downloading pyzmq-23.2.1-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 155.1 MB/s eta 0:00:00
+Collecting jupyterlab-server~=2.10
+  Downloading jupyterlab_server-2.15.1-py3-none-any.whl (54 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.1/54.1 kB 394.1 MB/s eta 0:00:00
+Collecting jupyter-server~=1.16
+  Downloading jupyter_server-1.18.1-py3-none-any.whl (344 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 344.9/344.9 kB 161.5 MB/s eta 0:00:00
+Collecting nbclassic
+  Downloading nbclassic-0.4.3-py3-none-any.whl (9.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.7/9.7 MB 118.2 MB/s eta 0:00:00
+Collecting jupyter-core
+  Downloading jupyter_core-4.11.1-py3-none-any.whl (88 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 88.4/88.4 kB 444.3 MB/s eta 0:00:00
+Collecting notebook<7
+  Downloading notebook-6.4.12-py3-none-any.whl (9.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.9/9.9 MB 119.7 MB/s eta 0:00:00
+Collecting jinja2>=2.1
+  Downloading Jinja2-3.1.2-py3-none-any.whl (133 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.1/133.1 kB 372.6 MB/s eta 0:00:00
+Collecting widgetsnbextension~=4.0
+  Downloading widgetsnbextension-4.0.2-py3-none-any.whl (2.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 124.2 MB/s eta 0:00:00
+Collecting jupyterlab-widgets~=3.0
+  Downloading jupyterlab_widgets-3.0.2-py3-none-any.whl (383 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 384.0/384.0 kB 198.2 MB/s eta 0:00:00
+Collecting ipython-genutils
+  Downloading ipython_genutils-0.2.0-py2.py3-none-any.whl (26 kB)
+Collecting numexpr>=2.6.2
+  Downloading numexpr-2.8.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (381 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 381.5/381.5 kB 206.2 MB/s eta 0:00:00
+Collecting aeppl==0.0.35
+  Downloading aeppl-0.0.35-py3-none-any.whl (50 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 50.8/50.8 kB 375.6 MB/s eta 0:00:00
+Collecting cachetools>=4.2.1
+  Downloading cachetools-5.2.0-py3-none-any.whl (9.3 kB)
+Collecting typing-extensions>=3.7.4
+  Downloading typing_extensions-4.3.0-py3-none-any.whl (25 kB)
+Collecting aesara==2.8.2
+  Downloading aesara-2.8.2-py3-none-any.whl (1.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 131.1 MB/s eta 0:00:00
+Collecting cloudpickle
+  Downloading cloudpickle-2.1.0-py3-none-any.whl (25 kB)
+Collecting arviz>=0.12.0
+  Downloading arviz-0.12.1-py3-none-any.whl (1.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 133.4 MB/s eta 0:00:00
+Collecting fastprogress>=0.2.0
+  Downloading fastprogress-1.0.3-py3-none-any.whl (12 kB)
+Collecting filelock
+  Downloading filelock-3.8.0-py3-none-any.whl (10 kB)
+Collecting logical-unification
+  Downloading logical-unification-0.4.5.tar.gz (31 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting miniKanren
+  Downloading miniKanren-1.0.3.tar.gz (41 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.3/41.3 kB 168.6 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting etuples
+  Downloading etuples-0.3.5.tar.gz (30 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting cons
+  Downloading cons-0.4.5.tar.gz (26 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting sympy>=1.0
+  Downloading sympy-1.11-py3-none-any.whl (6.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.5/6.5 MB 121.0 MB/s eta 0:00:00
+Collecting llvmlite<0.40,>=0.39.0dev0
+  Downloading llvmlite-0.39.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (34.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 34.6/34.6 MB 116.9 MB/s eta 0:00:00
+Collecting importlib-metadata
+  Downloading importlib_metadata-4.12.0-py3-none-any.whl (21 kB)
+Collecting xarray-einstats>=0.2
+  Downloading xarray_einstats-0.3.0-py3-none-any.whl (34 kB)
+Collecting netcdf4
+  Downloading netCDF4-1.6.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (5.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.2/5.2 MB 124.1 MB/s eta 0:00:00
+Collecting xarray>=0.16.1
+  Downloading xarray-2022.6.0-py3-none-any.whl (927 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 927.2/927.2 kB 142.4 MB/s eta 0:00:00
+Collecting pyerfa>=2.0
+  Downloading pyerfa-2.0.0.1-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (775 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 775.7/775.7 kB 148.7 MB/s eta 0:00:00
+Collecting docopt>=0.6.1
+  Downloading docopt-0.6.2.tar.gz (25 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting coverage!=6.0.*,!=6.1,!=6.1.1,<7.0,>=4.1
+  Downloading coverage-6.4.4-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (213 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 213.6/213.6 kB 219.8 MB/s eta 0:00:00
+Collecting requests>=1.0.0
+  Downloading requests-2.28.1-py3-none-any.whl (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.8/62.8 kB 388.3 MB/s eta 0:00:00
+Collecting jedi>=0.16
+  Downloading jedi-0.18.1-py2.py3-none-any.whl (1.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 141.3 MB/s eta 0:00:00
+Collecting backcall
+  Downloading backcall-0.2.0-py2.py3-none-any.whl (11 kB)
+Collecting prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0
+  Downloading prompt_toolkit-3.0.30-py3-none-any.whl (381 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 381.7/381.7 kB 199.9 MB/s eta 0:00:00
+Collecting decorator
+  Downloading decorator-5.1.1-py3-none-any.whl (9.1 kB)
+Collecting stack-data
+  Downloading stack_data-0.4.0-py3-none-any.whl (23 kB)
+Collecting pygments>=2.4.0
+  Downloading Pygments-2.13.0-py3-none-any.whl (1.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 150.1 MB/s eta 0:00:00
+Collecting pexpect>4.3
+  Downloading pexpect-4.8.0-py2.py3-none-any.whl (59 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.0/59.0 kB 279.8 MB/s eta 0:00:00
+Collecting pickleshare
+  Downloading pickleshare-0.7.5-py2.py3-none-any.whl (6.9 kB)
+Collecting MarkupSafe>=2.0
+  Downloading MarkupSafe-2.1.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+Collecting entrypoints
+  Downloading entrypoints-0.4-py3-none-any.whl (5.3 kB)
+Collecting anyio<4,>=3.1.0
+  Downloading anyio-3.6.1-py3-none-any.whl (80 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 80.6/80.6 kB 426.3 MB/s eta 0:00:00
+Collecting websocket-client
+  Downloading websocket_client-1.4.0-py3-none-any.whl (54 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.7/54.7 kB 368.7 MB/s eta 0:00:00
+Collecting nbformat>=5.2.0
+  Downloading nbformat-5.4.0-py3-none-any.whl (73 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.3/73.3 kB 389.5 MB/s eta 0:00:00
+Collecting Send2Trash
+  Downloading Send2Trash-1.8.0-py3-none-any.whl (18 kB)
+Collecting argon2-cffi
+  Downloading argon2_cffi-21.3.0-py3-none-any.whl (14 kB)
+Collecting prometheus-client
+  Downloading prometheus_client-0.14.1-py3-none-any.whl (59 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.5/59.5 kB 246.2 MB/s eta 0:00:00
+Collecting nbconvert>=6.4.4
+  Downloading nbconvert-7.0.0-py3-none-any.whl (271 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 271.3/271.3 kB 182.2 MB/s eta 0:00:00
+Collecting terminado>=0.8.3
+  Downloading terminado-0.15.0-py3-none-any.whl (16 kB)
+Collecting json5
+  Downloading json5-0.9.10-py2.py3-none-any.whl (19 kB)
+Collecting babel
+  Downloading Babel-2.10.3-py3-none-any.whl (9.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.5/9.5 MB 120.7 MB/s eta 0:00:00
+Collecting jsonschema>=3.0.1
+  Downloading jsonschema-4.14.0-py3-none-any.whl (82 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 82.4/82.4 kB 396.7 MB/s eta 0:00:00
+Collecting zipp>=0.5
+  Downloading zipp-3.8.1-py3-none-any.whl (5.6 kB)
+Collecting pyparsing>=2.2.1
+  Downloading pyparsing-3.0.9-py3-none-any.whl (98 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.3/98.3 kB 398.7 MB/s eta 0:00:00
+Collecting kiwisolver>=1.0.1
+  Downloading kiwisolver-1.4.4-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 130.6 MB/s eta 0:00:00
+Collecting cycler>=0.10
+  Downloading cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting fonttools>=4.22.0
+  Downloading fonttools-4.37.1-py3-none-any.whl (957 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 957.2/957.2 kB 136.8 MB/s eta 0:00:00
+Collecting six
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting py>=1.8.2
+  Downloading py-1.11.0-py2.py3-none-any.whl (98 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.7/98.7 kB 205.2 MB/s eta 0:00:00
+Collecting tomli>=1.0.0
+  Downloading tomli-2.0.1-py3-none-any.whl (12 kB)
+Collecting iniconfig
+  Downloading iniconfig-1.1.1-py2.py3-none-any.whl (5.0 kB)
+Collecting pluggy<2.0,>=0.12
+  Downloading pluggy-1.0.0-py2.py3-none-any.whl (13 kB)
+Collecting attrs>=19.2.0
+  Downloading attrs-22.1.0-py2.py3-none-any.whl (58 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.8/58.8 kB 380.7 MB/s eta 0:00:00
+Collecting mpmath>=0.19
+  Downloading mpmath-1.2.1-py3-none-any.whl (532 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 532.6/532.6 kB 141.0 MB/s eta 0:00:00
+Collecting notebook-shim>=0.1.0
+  Downloading notebook_shim-0.1.0-py3-none-any.whl (13 kB)
+Collecting greenlet!=0.4.17
+  Downloading greenlet-1.1.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (157 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 157.1/157.1 kB 260.5 MB/s eta 0:00:00
+Collecting cmake
+  Downloading cmake-3.24.1-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (23.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23.3/23.3 MB 117.4 MB/s eta 0:00:00
+Collecting sniffio>=1.1
+  Downloading sniffio-1.2.0-py3-none-any.whl (10 kB)
+Collecting idna>=2.8
+  Downloading idna-3.3-py3-none-any.whl (61 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.2/61.2 kB 283.7 MB/s eta 0:00:00
+Collecting parso<0.9.0,>=0.8.0
+  Downloading parso-0.8.3-py2.py3-none-any.whl (100 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100.8/100.8 kB 210.2 MB/s eta 0:00:00
+Collecting importlib-resources>=1.4.0
+  Downloading importlib_resources-5.9.0-py3-none-any.whl (33 kB)
+Collecting pkgutil-resolve-name>=1.3.10
+  Downloading pkgutil_resolve_name-1.3.10-py3-none-any.whl (4.7 kB)
+Collecting pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0
+  Downloading pyrsistent-0.18.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (119 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 119.8/119.8 kB 447.8 MB/s eta 0:00:00
+Collecting mistune<3,>=2.0.3
+  Downloading mistune-2.0.4-py2.py3-none-any.whl (24 kB)
+Collecting tinycss2
+  Downloading tinycss2-1.1.1-py3-none-any.whl (21 kB)
+Collecting defusedxml
+  Downloading defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+Collecting jupyterlab-pygments
+  Downloading jupyterlab_pygments-0.2.2-py2.py3-none-any.whl (21 kB)
+Collecting beautifulsoup4
+  Downloading beautifulsoup4-4.11.1-py3-none-any.whl (128 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 128.2/128.2 kB 283.1 MB/s eta 0:00:00
+Collecting nbclient>=0.5.0
+  Downloading nbclient-0.6.7-py3-none-any.whl (71 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 71.8/71.8 kB 143.9 MB/s eta 0:00:00
+Collecting bleach
+  Downloading bleach-5.0.1-py3-none-any.whl (160 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 160.9/160.9 kB 179.1 MB/s eta 0:00:00
+Collecting pandocfilters>=1.4.1
+  Downloading pandocfilters-1.5.0-py2.py3-none-any.whl (8.7 kB)
+Collecting lxml
+  Downloading lxml-4.9.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl (6.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 119.8 MB/s eta 0:00:00
+Collecting fastjsonschema
+  Downloading fastjsonschema-2.16.1-py3-none-any.whl (22 kB)
+Collecting ptyprocess>=0.5
+  Downloading ptyprocess-0.7.0-py2.py3-none-any.whl (13 kB)
+Collecting wcwidth
+  Downloading wcwidth-0.2.5-py2.py3-none-any.whl (30 kB)
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.12-py2.py3-none-any.whl (140 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 140.4/140.4 kB 155.5 MB/s eta 0:00:00
+Collecting charset-normalizer<3,>=2
+  Downloading charset_normalizer-2.1.1-py3-none-any.whl (39 kB)
+Collecting argon2-cffi-bindings
+  Downloading argon2_cffi_bindings-21.2.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (86 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 86.2/86.2 kB 171.8 MB/s eta 0:00:00
+Collecting toolz
+  Downloading toolz-0.12.0-py3-none-any.whl (55 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 55.8/55.8 kB 135.6 MB/s eta 0:00:00
+Collecting multipledispatch
+  Downloading multipledispatch-0.6.0-py3-none-any.whl (11 kB)
+Collecting cftime
+  Downloading cftime-1.6.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (241 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 241.9/241.9 kB 325.0 MB/s eta 0:00:00
+Collecting executing
+  Downloading executing-0.10.0-py2.py3-none-any.whl (17 kB)
+Collecting pure-eval
+  Downloading pure_eval-0.2.2-py3-none-any.whl (11 kB)
+Collecting asttokens
+  Downloading asttokens-2.0.8-py2.py3-none-any.whl (23 kB)
+Collecting cffi>=1.0.1
+  Downloading cffi-1.15.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (442 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 442.7/442.7 kB 187.6 MB/s eta 0:00:00
+Collecting soupsieve>1.2
+  Downloading soupsieve-2.3.2.post1-py3-none-any.whl (37 kB)
+Collecting webencodings
+  Downloading webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Collecting pycparser
+  Downloading pycparser-2.21-py2.py3-none-any.whl (118 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 118.7/118.7 kB 151.9 MB/s eta 0:00:00
+Building wheels for collected packages: pysqlite3, camb, lru_cache, docopt, cons, logical-unification, etuples, miniKanren
+  Building wheel for pysqlite3 (setup.py): started
+  Building wheel for pysqlite3 (setup.py): finished with status 'done'
+  WARNING: Legacy build of wheel for 'pysqlite3' created no files.
+  Command arguments: /software/soenv_20220826/bin/python3.8 -u -c '
+  exec(compile('"'"''"'"''"'"'
+  # This is <pip-setuptools-caller> -- a caller that pip uses to run setup.py
+  #
+  # - It imports setuptools before invoking setup.py, to enable projects that directly
+  #   import from `distutils.core` to work with newer packaging standards.
+  # - It provides a clear error message when setuptools is not installed.
+  # - It sets `sys.argv[0]` to the underlying `setup.py`, when invoking `setup.py` so
+  #   setuptools doesn'"'"'t think the script is `-c`. This avoids the following warning:
+  #     manifest_maker: standard file '"'"'-c'"'"' not found".
+  # - It generates a shim setup.py, for handling setup.cfg-only projects.
+  import os, sys, tokenize
+  
+  try:
+      import setuptools
+  except ImportError as error:
+      print(
+          "ERROR: Can not execute `setup.py` since setuptools is not available in "
+          "the build environment.",
+          file=sys.stderr,
+      )
+      sys.exit(1)
+  
+  __file__ = %r
+  sys.argv[0] = __file__
+  
+  if os.path.exists(__file__):
+      filename = __file__
+      with tokenize.open(__file__) as f:
+          setup_py_code = f.read()
+  else:
+      filename = "<auto-generated setuptools caller>"
+      setup_py_code = "from setuptools import setup; setup()"
+  
+  exec(compile(setup_py_code, filename, "exec"))
+  '"'"''"'"''"'"' % ('"'"'/tmp/pip-install-66d_4cri/pysqlite3_8fcbee0be7ed4987a901b2a75e16b6d9/setup.py'"'"',), "<pip-setuptools-caller>", "exec"))' bdist_wheel -d /tmp/pip-wheel-2mqa8i9p
+  Command output: [use --verbose to show]
+  Running setup.py clean for pysqlite3
+  Building wheel for camb (setup.py): started
+  Building wheel for camb (setup.py): finished with status 'done'
+  Created wheel for camb: filename=camb-1.3.5-py3-none-any.whl size=1084054 sha256=841122e900e40761110523030e71c8ca93f170a6db362176b66d46d2483477f7
+  Stored in directory: /tmp/pip-ephem-wheel-cache-7upvn53e/wheels/28/6c/fa/269b7f557dec9d34150017a628b2b2d546889231acb6d5bde2
+  Building wheel for lru_cache (setup.py): started
+  Building wheel for lru_cache (setup.py): finished with status 'done'
+  Created wheel for lru_cache: filename=lru_cache-0.2.3-py3-none-any.whl size=3255 sha256=4fd7505fe46d359d3eef83ac95c9cbd2805567a920e7da516baa3fe90969e3a4
+  Stored in directory: /tmp/pip-ephem-wheel-cache-7upvn53e/wheels/5f/31/18/eb8085012b7902a6cffda6aa9541e402700180b9c0509240e7
+  Building wheel for docopt (setup.py): started
+  Building wheel for docopt (setup.py): finished with status 'done'
+  Created wheel for docopt: filename=docopt-0.6.2-py2.py3-none-any.whl size=13706 sha256=3a14781b9ec26914dab0ae8e5c9a1d6a053968a6bcfa1849378cac01e2f91b37
+  Stored in directory: /tmp/pip-ephem-wheel-cache-7upvn53e/wheels/56/ea/58/ead137b087d9e326852a851351d1debf4ada529b6ac0ec4e8c
+  Building wheel for cons (setup.py): started
+  Building wheel for cons (setup.py): finished with status 'done'
+  Created wheel for cons: filename=cons-0.4.5-py3-none-any.whl size=9114 sha256=d4e05d908c2593a6263eac87ccdcacf6342b2fb4b47bf0a8c7ff7f3e99e4e34d
+  Stored in directory: /tmp/pip-ephem-wheel-cache-7upvn53e/wheels/7f/7d/7f/60404727e7315590ed31801adc1534189bb14d0907b550b1d6
+  Building wheel for logical-unification (setup.py): started
+  Building wheel for logical-unification (setup.py): finished with status 'done'
+  Created wheel for logical-unification: filename=logical_unification-0.4.5-py3-none-any.whl size=13754 sha256=9db2fe06ce56f06660542fe47b9e1414c1cfe698ea8be14820b8ff42a7285da9
+  Stored in directory: /tmp/pip-ephem-wheel-cache-7upvn53e/wheels/56/53/37/a30eaff18bb5aa4170fabccc490a5d8fe84f35edf97f28fe33
+  Building wheel for etuples (setup.py): started
+  Building wheel for etuples (setup.py): finished with status 'done'
+  Created wheel for etuples: filename=etuples-0.3.5-py3-none-any.whl size=12396 sha256=21c941fd594c0ea7ff2165dd90cd61d9d80e73d9b5d7ae2b94ac226ef43bd7eb
+  Stored in directory: /tmp/pip-ephem-wheel-cache-7upvn53e/wheels/5e/15/5b/70888d7e2eea5d0bc1c5a00080055bdaee8c240d4cdcff8374
+  Building wheel for miniKanren (setup.py): started
+  Building wheel for miniKanren (setup.py): finished with status 'done'
+  Created wheel for miniKanren: filename=miniKanren-1.0.3-py3-none-any.whl size=23909 sha256=0d92630ce237ef6225664add6d466f4a0bbc732f91ac963eef42e8e093a43494
+  Stored in directory: /tmp/pip-ephem-wheel-cache-7upvn53e/wheels/06/83/f0/bf4f50c0e6bfab8ae0860cb6e4a029a8a5346e3c1c38d926e6
+Successfully built camb lru_cache docopt cons logical-unification etuples miniKanren
+Failed to build pysqlite3
+Installing collected packages: webencodings, wcwidth, sgp4, Send2Trash, pytz, pysqlite3-wheels, pysqlite3, pure-eval, ptyprocess, pickleshare, mpmath, mistune, lru_cache, json5, ipython-genutils, iniconfig, fastjsonschema, executing, ephem, docopt, cmake, backcall, zipp, widgetsnbextension, websocket-client, urllib3, typing-extensions, traitlets, tqdm, tornado, toolz, tomli, toml, tinycss2, sympy, soupsieve, sniffio, six, pyzmq, pyyaml, pyrsistent, pyparsing, pygments, pycparser, pycodestyle, py, psutil, prompt-toolkit, prometheus-client, pluggy, pkgutil-resolve-name, Pillow, pexpect, parso, pandocfilters, numpy, nest-asyncio, natsort, MarkupSafe, lxml, llvmlite, kiwisolver, jupyterlab-widgets, jupyterlab-pygments, joblib, idna, greenlet, fonttools, filelock, fastprogress, entrypoints, defusedxml, decorator, debugpy, cython, cycler, coverage, cloudpickle, charset-normalizer, certifi, cachetools, babel, attrs, terminado, sqlalchemy, scipy, requests, python-dateutil, pyfftw, pyerfa, pyaml, patsy, packaging, multipledispatch, matplotlib-inline, jupyter-core, jplephem, jinja2, jedi, importlib-resources, importlib-metadata, iminuit, h5py, cftime, cffi, bleach, beautifulsoup4, autopep8, asttokens, anyio, stack-data, skyfield, pytest, pandas, numexpr, numba, netcdf4, matplotlib, logical-unification, jupyter-client, jsonschema, coveralls, camb, astropy, argon2-cffi-bindings, xarray, tables, statsmodels, so3g, pytest-cov, nbformat, ipython, healpy, cons, argon2-cffi, xarray-einstats, toast, pixell, nbclient, ipykernel, etuples, toast-cmb, nbconvert, miniKanren, ipywidgets, arviz, notebook, jupyter-server, ipympl, aesara, notebook-shim, jupyterlab-server, aeppl, pymc, nbclassic, jupyterlab
+  Running setup.py install for pysqlite3: started
+  Running setup.py install for pysqlite3: finished with status 'done'
+Successfully installed MarkupSafe-2.1.1 Pillow-9.2.0 Send2Trash-1.8.0 aeppl-0.0.35 aesara-2.8.2 anyio-3.6.1 argon2-cffi-21.3.0 argon2-cffi-bindings-21.2.0 arviz-0.12.1 astropy-5.1 asttokens-2.0.8 attrs-22.1.0 autopep8-1.7.0 babel-2.10.3 backcall-0.2.0 beautifulsoup4-4.11.1 bleach-5.0.1 cachetools-5.2.0 camb-1.3.5 certifi-2022.6.15 cffi-1.15.1 cftime-1.6.1 charset-normalizer-2.1.1 cloudpickle-2.1.0 cmake-3.24.1 cons-0.4.5 coverage-6.4.4 coveralls-3.3.1 cycler-0.11.0 cython-0.29.32 debugpy-1.6.3 decorator-5.1.1 defusedxml-0.7.1 docopt-0.6.2 entrypoints-0.4 ephem-4.1.3 etuples-0.3.5 executing-0.10.0 fastjsonschema-2.16.1 fastprogress-1.0.3 filelock-3.8.0 fonttools-4.37.1 greenlet-1.1.3 h5py-3.7.0 healpy-1.16.1 idna-3.3 iminuit-2.16.0 importlib-metadata-4.12.0 importlib-resources-5.9.0 iniconfig-1.1.1 ipykernel-6.15.1 ipympl-0.9.2 ipython-8.4.0 ipython-genutils-0.2.0 ipywidgets-8.0.1 jedi-0.18.1 jinja2-3.1.2 joblib-1.1.0 jplephem-2.17 json5-0.9.10 jsonschema-4.14.0 jupyter-client-7.3.5 jupyter-core-4.11.1 jupyter-server-1.18.1 jupyterlab-3.4.5 jupyterlab-pygments-0.2.2 jupyterlab-server-2.15.1 jupyterlab-widgets-3.0.2 kiwisolver-1.4.4 llvmlite-0.39.0 logical-unification-0.4.5 lru_cache-0.2.3 lxml-4.9.1 matplotlib-3.5.3 matplotlib-inline-0.1.6 miniKanren-1.0.3 mistune-2.0.4 mpmath-1.2.1 multipledispatch-0.6.0 natsort-8.1.0 nbclassic-0.4.3 nbclient-0.6.7 nbconvert-7.0.0 nbformat-5.4.0 nest-asyncio-1.5.5 netcdf4-1.6.0 notebook-6.4.12 notebook-shim-0.1.0 numba-0.56.0 numexpr-2.8.3 numpy-1.22.0 packaging-21.3 pandas-1.4.3 pandocfilters-1.5.0 parso-0.8.3 patsy-0.5.2 pexpect-4.8.0 pickleshare-0.7.5 pixell-0.16.0 pkgutil-resolve-name-1.3.10 pluggy-1.0.0 prometheus-client-0.14.1 prompt-toolkit-3.0.30 psutil-5.9.1 ptyprocess-0.7.0 pure-eval-0.2.2 py-1.11.0 pyaml-21.10.1 pycodestyle-2.9.1 pycparser-2.21 pyerfa-2.0.0.1 pyfftw-0.13.0 pygments-2.13.0 pymc-4.1.7 pyparsing-3.0.9 pyrsistent-0.18.1 pysqlite3 pysqlite3-wheels-0.4.6 pytest-7.1.2 pytest-cov-3.0.0 python-dateutil-2.8.2 pytz-2022.2.1 pyyaml-6.0 pyzmq-23.2.1 requests-2.28.1 scipy-1.9.0 sgp4-2.21 six-1.16.0 skyfield-1.43.1 sniffio-1.2.0 so3g-0.1.4 soupsieve-2.3.2.post1 sqlalchemy-1.4.40 stack-data-0.4.0 statsmodels-0.13.2 sympy-1.11 tables-3.7.0 terminado-0.15.0 tinycss2-1.1.1 toast-2.3.14 toast-cmb-2.3.14 toml-0.10.2 tomli-2.0.1 toolz-0.12.0 tornado-6.2 tqdm-4.64.0 traitlets-5.3.0 typing-extensions-4.3.0 urllib3-1.26.12 wcwidth-0.2.5 webencodings-0.5.1 websocket-client-1.4.0 widgetsnbextension-4.0.2 xarray-2022.6.0 xarray-einstats-0.3.0 zipp-3.8.1
+WARNING: The directory '/homes/ykyohei/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Collecting pymaster
+  Downloading pymaster-1.4.tar.gz (1.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 43.5 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: pymaster
+  Building wheel for pymaster (setup.py): started
