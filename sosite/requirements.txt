@@ -1,0 +1,30 @@
+# sotodlib requirements
+numpy==1.22
+setuptools>=48
+so3g==0.1.8
+pixell
+skyfield
+toml
+pyfftw
+scikit-image
+autopep8
+sphinx
+
+# jupyter
+ipykernel
+jupyterlab
+ipywidgets
+ipympl
+
+# etc
+iminuit>=2
+pandas
+tables
+pysqlite-binary #failed to install pysqlite3
+pymc
+camb
+joblib
+lru_cache
+cython
+natsort
+numba
